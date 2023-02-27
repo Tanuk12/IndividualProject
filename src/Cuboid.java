@@ -1,3 +1,5 @@
+
+
 //all good
 public class Cuboid {
 	//member variables
@@ -12,13 +14,13 @@ public class Cuboid {
 		
 	}
 	
-	public int calcVol() {
-		int vol = l*w*h;
+	public double calcVol() {
+		double vol = l*w*h;
 		return vol;
 	}
 	
-	int calcSurfaceArea() {
-		int sa = 2*l*h + 2*w*l + 2*h*w;
+	double calcSurfaceArea() {
+		double sa = 2*l*h + 2*w*l + 2*h*w;
 		return sa;
 	}
 

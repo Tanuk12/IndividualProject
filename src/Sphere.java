@@ -1,3 +1,5 @@
+
+
 //all good
 public class Sphere {
 int r;
@@ -8,13 +10,13 @@ int r;
 	}
 	
 	
-	int calcVol() {
-		int vol = (int) ((4/3)*3.1459*(r*r*r));
+	double calcVol() {
+		double vol = ((4/3)*3.1459*(r*r*r));
 		return vol;
 	}
 	
-	int calcSurfaceArea() {
-		int sa = (int) (4*3.1459*r*r);
+	double calcSurfaceArea() {
+		double sa = (4*3.1459*r*r);
 		return sa;
 	}
 
