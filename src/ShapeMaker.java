@@ -7,7 +7,7 @@ public class ShapeMaker {
 		System.out.println("what shape would you like to do you can choose from: Cuboid, Pyramid, sphere, cylinder, and cone");
 		boolean loop = true;
 		while(loop) {
-		System.out.println("please select which shape you would like to do 1 is cube, 2 is pyramid, 3 is sphere, 4 is cone, 5 is cylinder, 6 is triangluar pyramid, 7 is torus, 8 is ellipsoid, 9 is triangular prism, and once you are done press 10");
+		System.out.println("please select which shape you would like to do 1 is cube, 2 is pyramid, 3 is sphere, 4 is cone, 5 is cylinder, 6 is triangluar pyramid, 7 is torus, 8 is ellipsoid, 9 is triangular prism, 10 is hexagonal prism and once you are done press 11");
 		int choice = scan.nextInt();
 		switch (choice) {
 		case 1:
